@@ -1,0 +1,6 @@
+Y = int(input("Введіть трьохзначне число: "))
+sum = 0
+while (Y!= 0):
+    sum = sum + Y % 10
+    Y = Y // 10
+print("Сумма:", sum)
