@@ -1,0 +1,5 @@
+text = input("Введіть текст у вигляді 'Name Surname*Date of Birth(2000-01-01)*Date of death(2023-01-01)': ")
+x = text.split("*")
+y1 = x[1].split("-")
+y2 = x[2].split("-")
+print('Name:', x[0],"\n", 'Age:', int(y2[0]) - int(y1[0]), 'years')
