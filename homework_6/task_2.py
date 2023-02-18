@@ -7,11 +7,13 @@ def solve_quadratic_equation(a, b, c):
         x2 = (-b - math.sqrt(d))/(2 * a)
         return x1, x2
     elif d == 0:
-        x = (-b)/(2 * a)
-        return x
+        x1 = (-b)/(2 * a)
+        x2 = None
+        return x1, x2
     else:
-        None
-        return None
+        x1 = None
+        x2 = None
+        return x1, x2
 
 
 print("ax^2 + bx + c = 0")
