@@ -1,8 +1,8 @@
 def cone_square_and_volume(radius, height):
     pi = 22/7
-    Square = pi * radius * height + pi * radius ** 2
-    Volume = (pi * radius ** 2 * height) / 3
-    return Square, Volume
+    square = pi * radius * height + pi * radius ** 2
+    volume = (pi * radius ** 2 * height) / 3
+    return square, volume
 
 
 radius = int(input("The radius of the cone: "))

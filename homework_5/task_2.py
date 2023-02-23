@@ -1,7 +1,7 @@
 def triangle_square_and_perimeter(a, b):
-    S = 1/2 * (a * b)
-    P = a + b + (a**2 + b**2)**0.5
-    return S, P
+    s = 1/2 * (a * b)
+    p = a + b + (a**2 + b**2)**0.5
+    return s, p
 
 
 a = int(input("Input the first side about the right angle of a triangle: "))
