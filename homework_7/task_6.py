@@ -5,14 +5,11 @@ def fibonacci(x):
         return 0
     elif x == 1:
         return b
-    elif x in (2, 3):
-        return 1
-    else:
-        for i in range(2, x):
-            c = a + b
-            a = b
-            b = c
-        return b
+    for i in range(2, x):
+        c = a + b
+        a = b
+        b = c
+    return b
 
 
 x = int(input("Fibonacci sequences start with numbers 0 and 1 \nEnter the element number of the Fibonacci series: "))

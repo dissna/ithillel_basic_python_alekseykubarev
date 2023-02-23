@@ -1,6 +1,6 @@
 def sum_symbol_codes(first, second):
-    x = ord('{}'.format(first))
-    y = ord('{}'.format(second))
+    x = ord(first)
+    y = ord(second)
     if x == y:
         return x
     if x < y:
